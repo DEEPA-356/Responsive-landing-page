@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <div class="hero">
+            <h1>THE WORLD AWAITS!</h1>
+            <p>Find your next adventure!</p>
+            <button onclick="alert('Discover More!')">Discover More</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container" id="explore">
+        <section class="destinations">
+            <h1>POPULAR DESTINATIONS</h1>
+            <div class="destination-grid">
+                <div class="destination">
+                    <img src="beach paradise.avif" alt="Beach Paradise">
+                    <h3>Beach Paradise</h3>
+                </div>
+                <div class="destination">
+                    <img src="mountain.jpg" alt="Mountain Retreat">
+                    <h3>Mountain Retreat</h3>
+                </div>
+                <div class="destination">
+                    <img src="city3.jpg" alt="City Escapade">
+                    <h3>City Escapade</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section--> 
+        <section class="contact" id="contact">
+            <h1>Contact Us</h1>
+            <form onsubmit="alert('Message Sent!'); return false;">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="www.nature.com" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Travelers Say</h2>
+        <div class="testimonial">
+            <p>"An unforgettable experience! Highly recommend."</p>
+            <p>- Sarus Likkem</p>
+        </div>
+        <div class="testimonial">
+            <p>"The best vacation ever, can’t wait to book again!"</p>
+            <p>- Johnny Drues</p>
+        </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Explore the World. All rights reserved.</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
